@@ -115,6 +115,44 @@ main{
 .sidebar {
   width: 230px;
 }
+.common-heading{
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.sidebar-contents{
+  padding: 50px 0;
+}
+
+.popular-text
+.categories-text {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 5px;
+}
+
+.popular-text:last-child,
+.categories-text:last-child{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+.instagram .sidebar-contents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.instagram-box {
+  width: 110px;
+  padding-top: 110px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+
 
 footer {
  width: 100%;
@@ -125,5 +163,5 @@ footer {
 }
 
 .fotter-text {
-  color: #ffffff;
+  color: #fff;
 }
